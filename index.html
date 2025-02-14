@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZaidWebDev</title>
+  <link rel="icon" type="image/png" href="images/title-logo.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Splash Screen -->
+  <div id="splash">
+    <img src="images/splash.png" alt="ZaidWebDev Logo" class="splash-logo">
+  </div>
+
+  <!-- Advertising Bar -->
+  <div class="ad-bar">
+    Get 50% off on our services! Limited time offer.
+  </div>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-left">
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#recent-works">Recent Works</a></li>
+      </ul>
+    </div>
+    <div class="nav-logo">
+      <a href="index.html"><img src="images/logo.png" alt="ZaidWebDev Logo"></a>
+    </div>
+    <div class="nav-right">
+      <ul>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Welcome at <span>ZaidWebDev</span></h1>
+      <p>
+        Offering professional services with a touch of elegance. Let's build something amazing together.
+      </p>
+      <button onclick="scrollToSection('services')">Explore Services</button>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>My Services</h2>
+    <div class="service-items">
+      <div class="service-item">
+        <h3>Web Design</h3>
+        <p>Creating modern, clean, and user-friendly website designs.</p>
+      </div>
+      <div class="service-item">
+        <h3>Development</h3>
+        <p>Building responsive and scalable web applications from scratch.</p>
+      </div>
+      <div class="service-item">
+        <h3>Consulting</h3>
+        <p>Providing expert advice to help you achieve your business goals.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recent Works Section with Carousel -->
+  <section id="recent-works" class="recent-works">
+    <h2>Recent Works</h2>
+    <div class="carousel recent-works-carousel">
+      <button class="prev">&#10094;</button>
+      <div class="carousel-slides">
+        <div class="slide">
+          <img src="images/imag-1.jpg" alt="Project 1" />
+          <h3>Project One</h3>
+          <p>Brief description of project one.</p>
+        </div>
+        <div class="slide">
+          <img src="images/imag-1.jpg" alt="Project 2" />
+          <h3>Project Two</h3>
+          <p>Brief description of project two.</p>
+        </div>
+        <div class="slide">
+          <img src="images/imag-1.jpg" alt="Project 3" />
+          <h3>Project Three</h3>
+          <p>Brief description of project three.</p>
+        </div>
+      </div>
+      <button class="next">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- Reviews & Feedback Section (Grid Style) -->
+  <section id="reviews" class="reviews">
+    <h2>Reviews & Feedback</h2>
+    <div class="reviews-grid">
+      <!-- Review Card 1 -->
+      <div class="review-card">
+        <img src="images/imag-1.jpg" alt="Client Photo" class="review-photo" />
+        <h3>Chris Wilson</h3>
+        <p>Wrote a review about ABC Clothing</p>
+        <div class="star-rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9734;</span>
+        </div>
+        <p>Excellent service</p>
+      </div>
+
+      <!-- Review Card 2 -->
+      <div class="review-card">
+        <img src="images/imag-1.jpg" alt="Client Photo" class="review-photo" />
+        <h3>Rob Haigh</h3>
+        <p>Wrote a review about HappyEnergy</p>
+        <div class="star-rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+        </div>
+        <p>No complaints in the last couple of years</p>
+      </div>
+
+      <!-- Review Card 3 -->
+      <div class="review-card">
+        <img src="images/imag-1.jpg" alt="Client Photo" class="review-photo" />
+        <h3>Bob Mertens</h3>
+        <p>Wrote a review about Bleach</p>
+        <div class="star-rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+        </div>
+        <p>Sample review text</p>
+      </div>
+
+      <!-- Review Card 4 -->
+      <div class="review-card">
+        <img src="images/imag-1.jpg" alt="Client Photo" class="review-photo" />
+        <h3>Kevin Emery</h3>
+        <p>Wrote a review about Capital Reviews UK</p>
+        <div class="star-rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9734;</span>
+        </div>
+        <p>Sample review text</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      At ZaidWebDev, we are passionate about creating stunning websites and delivering exceptional digital experiences. Our team of experts is dedicated to providing innovative solutions that help your business thrive in the digital world.
+    </p>
+  </section>
+
+  <!-- Our Team Section -->
+  <section id="team" class="team">
+    <h2>Our Team</h2>
+    <div class="team-items">
+      <div class="team-member">
+        <img src="images/imag-1.jpg" alt="Team Member 1" />
+        <h3>John Doe</h3>
+        <p>Lead Designer</p>
+      </div>
+      <div class="team-member">
+        <img src="images/imag-1.jpg" alt="Team Member 2" />
+        <h3>Jane Smith</h3>
+        <p>Senior Developer</p>
+      </div>
+      <div class="team-member">
+        <img src="images/imag-1.jpg" alt="Team Member 3" />
+        <h3>Mark Wilson</h3>
+        <p>Project Manager</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 ZaidWebDev. All rights reserved.</p>
+  </footer>
+
+  <!-- Live Chat Button (Redirect to new page) -->
+  <button class="chat-button" onclick="window.location.href='../livechat/livechat.html'">💬</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
