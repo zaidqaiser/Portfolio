@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Live Chat</title>
+  <link rel="stylesheet" href="livechat.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">MyPortfolio</div>
+    <ul>
+      <li><a href="../home/index.html">Home</a></li>
+    </ul>
+  </nav>
+
+  <!-- Chat Container -->
+  <main class="chat-container">
+    <header class="chat-header">
+      <h1>Live Chat</h1>
+    </header>
+    <section class="chat-messages" id="chatMessages">
+      <div class="message received">
+        <p>Welcome to our live chat! How can we help you today?</p>
+        <span class="timestamp">10:00 AM</span>
+      </div>
+    </section>
+    <footer class="chat-input-area">
+      <input type="text" id="chatInput" placeholder="Type your message..." />
+      <button id="sendButton">Send</button>
+    </footer>
+  </main>
+
+  <script src="livechat.js"></script>
+</body>
+</html>
